@@ -1,0 +1,73 @@
+.chat{
+    display: flex;
+    flex: 0.65;
+    flex-direction: column;
+}
+.chat_header{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    padding: 21px;
+}
+.chat_header_info{
+    flex: 1;
+    margin-left: 10px;
+
+}
+.chat_header_info> p{
+    color: gray;
+}
+.chat_header_right{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+}
+.chat_body{
+    flex: 1;
+    background: url('https://www.teahub.io/photos/full/11-119839_wallpaper.png');
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: auto;
+}
+.chat_message{
+    font-size: 16px;
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    width: fit-content;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.chat_timestamp{
+    margin-left: 10px;
+    font-size: xx-small
+}
+.chat_name{
+    position: absolute;
+    top: -15px;
+    font-weight: 800;
+    font-size: xx-small;
+}
+.chat_reciever{
+    margin-left: auto;
+    background-color: #ddffaa;
+}
+.chat_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border-top:1px solid rgb(204, 204, 204);
+}
+.chat_footer> form{
+    flex: 1;
+    display: flex;
+}
+.chat_footer>form>input{
+    flex: 1;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
